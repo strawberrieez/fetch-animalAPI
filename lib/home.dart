@@ -48,9 +48,10 @@ class _HomeState extends State<Home> {
         itemCount: data.length,
         itemBuilder: (context, index) {
           final fetch = data[index];
+          final attributes = fetch['attributes'] as Map<String, dynamic>?; 
           return ListTile(
-            title: Text(fetch['id']),
-            subtitle: Text(fetch['type']),
+            title: Text(attributes?['body']),
+            subtitle: Text(fetch['id']),
           );
         },
       ),
