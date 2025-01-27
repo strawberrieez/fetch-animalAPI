@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353806653645",
+    "project_id": "fetch-animalapi",
+    "storage_bucket": "fetch-animalapi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353806653645:android:cded4d58e89c22a006b184",
+        "android_client_info": {
+          "package_name": "com.animalapi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVU4Dqz9kvElz104LUywjyZxOi4PAMlPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
